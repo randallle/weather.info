@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  RandallLeFinalProject
+
+  Created by Randall Le on 12/8/21.
+  
+*/
+"High" = "High";
+"Low" = "Low";
+"Current" = "Current";
+"Table" = "Table";
+"Search Option" = "Search Option";
+"Latitude" = "Latitude";
+"Longitude" = "Longitude";
+"ZIP Code" = "ZIP Code";
+"Search with coordinates" = "Search with coordinates";
+"Search with ZIP Code" = "Search with ZIP Code";
+"Done" = "Done";
+"Error" = "Error";
+"Success" = "Success";
+"The location was added" = "The location was added";
+"There was an issue adding the specified coordinates" = "There was an issue adding the specified coordinates";
+"There was an issue adding the specified ZIP Code" = "There was an issue adding the specified ZIP Code";
+"Edit" = "Edit";

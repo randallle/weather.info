@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1CCFA827612640009BE6F8 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CCFA727612640009BE6F8 /* Weather.swift */; };
+		2C1CCFAA27612651009BE6F8 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CCFA927612651009BE6F8 /* WeatherModel.swift */; };
+		2C1CCFAC27614248009BE6F8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CCFAB27614248009BE6F8 /* TableViewController.swift */; };
+		2C1CCFAE2761435B009BE6F8 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CCFAD2761435B009BE6F8 /* AddLocationViewController.swift */; };
+		2C1CCFB127616BB2009BE6F8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1CCFB027616BB2009BE6F8 /* Kingfisher */; };
+		2C1CCFB6276177A4009BE6F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C1CCFB8276177A4009BE6F8 /* Localizable.strings */; };
+		2C1CCFBB27618272009BE6F8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CCFBA27618272009BE6F8 /* DetailsViewController.swift */; };
 		2CC182E9276083B000D467DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC182E8276083B000D467DE /* AppDelegate.swift */; };
 		2CC182EB276083B000D467DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC182EA276083B000D467DE /* SceneDelegate.swift */; };
 		2CC182ED276083B000D467DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC182EC276083B000D467DE /* ViewController.swift */; };
@@ -16,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1CCFA727612640009BE6F8 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		2C1CCFA927612651009BE6F8 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		2C1CCFAB27614248009BE6F8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2C1CCFAD2761435B009BE6F8 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		2C1CCFB42761776D009BE6F8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		2C1CCFB52761776E009BE6F8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2C1CCFB7276177A4009BE6F8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C1CCFB9276177AC009BE6F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C1CCFBA27618272009BE6F8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		2CC182E5276083B000D467DE /* RandallLeFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandallLeFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC182E8276083B000D467DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC182EA276083B000D467DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1CCFB127616BB2009BE6F8 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,7 @@
 		2CC182DC276083B000D467DE = {
 			isa = PBXGroup;
 			children = (
+				2C1CCFB8276177A4009BE6F8 /* Localizable.strings */,
 				2CC182E7276083B000D467DE /* RandallLeFinalProject */,
 				2CC182E6276083B000D467DE /* Products */,
 			);
@@ -56,15 +74,52 @@
 		2CC182E7276083B000D467DE /* RandallLeFinalProject */ = {
 			isa = PBXGroup;
 			children = (
-				2CC182E8276083B000D467DE /* AppDelegate.swift */,
-				2CC182EA276083B000D467DE /* SceneDelegate.swift */,
-				2CC182EC276083B000D467DE /* ViewController.swift */,
-				2CC182EE276083B000D467DE /* Main.storyboard */,
+				2CC182FF2760846D00D467DE /* Supporting Files */,
+				2CC182FE2760844F00D467DE /* Controller */,
+				2CC182FD2760844300D467DE /* View */,
+				2CC182FC2760843B00D467DE /* Model */,
 				2CC182F1276083B100D467DE /* Assets.xcassets */,
-				2CC182F3276083B100D467DE /* LaunchScreen.storyboard */,
 				2CC182F6276083B100D467DE /* Info.plist */,
 			);
 			path = RandallLeFinalProject;
+			sourceTree = "<group>";
+		};
+		2CC182FC2760843B00D467DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C1CCFA727612640009BE6F8 /* Weather.swift */,
+				2C1CCFA927612651009BE6F8 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CC182FD2760844300D467DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CC182EE276083B000D467DE /* Main.storyboard */,
+				2CC182F3276083B100D467DE /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CC182FE2760844F00D467DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CC182EC276083B000D467DE /* ViewController.swift */,
+				2C1CCFAB27614248009BE6F8 /* TableViewController.swift */,
+				2C1CCFAD2761435B009BE6F8 /* AddLocationViewController.swift */,
+				2C1CCFBA27618272009BE6F8 /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2CC182FF2760846D00D467DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CC182E8276083B000D467DE /* AppDelegate.swift */,
+				2CC182EA276083B000D467DE /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +138,9 @@
 			dependencies = (
 			);
 			name = RandallLeFinalProject;
+			packageProductDependencies = (
+				2C1CCFB027616BB2009BE6F8 /* Kingfisher */,
+			);
 			productName = RandallLeFinalProject;
 			productReference = 2CC182E5276083B000D467DE /* RandallLeFinalProject.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +167,12 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 2CC182DC276083B000D467DE;
+			packageReferences = (
+				2C1CCFAF27616BB2009BE6F8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 2CC182E6276083B000D467DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC182F5276083B100D467DE /* LaunchScreen.storyboard in Resources */,
+				2C1CCFB6276177A4009BE6F8 /* Localizable.strings in Resources */,
 				2CC182F2276083B100D467DE /* Assets.xcassets in Resources */,
 				2CC182F0276083B000D467DE /* Main.storyboard in Resources */,
 			);
@@ -139,18 +202,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC182ED276083B000D467DE /* ViewController.swift in Sources */,
+				2C1CCFAC27614248009BE6F8 /* TableViewController.swift in Sources */,
 				2CC182E9276083B000D467DE /* AppDelegate.swift in Sources */,
+				2C1CCFBB27618272009BE6F8 /* DetailsViewController.swift in Sources */,
+				2C1CCFAE2761435B009BE6F8 /* AddLocationViewController.swift in Sources */,
 				2CC182EB276083B000D467DE /* SceneDelegate.swift in Sources */,
+				2C1CCFAA27612651009BE6F8 /* WeatherModel.swift in Sources */,
+				2C1CCFA827612640009BE6F8 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2C1CCFB8276177A4009BE6F8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1CCFB7276177A4009BE6F8 /* es */,
+				2C1CCFB9276177AC009BE6F8 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2CC182EE276083B000D467DE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2CC182EF276083B000D467DE /* Base */,
+				2C1CCFB42761776D009BE6F8 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +237,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2CC182F4276083B100D467DE /* Base */,
+				2C1CCFB52761776E009BE6F8 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -289,11 +370,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMHX4Q6995;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RandallLeFinalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Weather.info;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,11 +400,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMHX4Q6995;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RandallLeFinalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Weather.info;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C1CCFAF27616BB2009BE6F8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C1CCFB027616BB2009BE6F8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C1CCFAF27616BB2009BE6F8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2CC182DD276083B000D467DE /* Project object */;
 }

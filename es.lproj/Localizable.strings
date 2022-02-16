@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  RandallLeFinalProject
+
+  Created by Randall Le on 12/8/21.
+  
+*/
+"High" = "Máxima";
+"Low" = "Mínimo";
+"Current" = "Actual";
+"Table" = "Tabla";
+"Search Option" = "Opción de Búsqueda";
+"Latitude" = "Latitud";
+"Longitude" = "Longitud";
+"ZIP Code" = "Código Postal";
+"Search with coordinates" = "Buscar con las coordenadas";
+"Search with ZIP Code" = "Buscar con el código postal";
+"Done" = "Listo";
+"Error" = "Error";
+"Success" = "Éxito";
+"The location was added" = "Se agregó la ubicación";
+"There was an issue adding the specified coordinates" = "Hubo un problema al agregar las coordenadas especificadas";
+"There was an issue adding the specified ZIP Code" = "Hubo un problema al agregar el código postal especificado";
+"Edit" = "Corregir";

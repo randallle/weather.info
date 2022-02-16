@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "Description goes here Description goes here"; ObjectID = "0Uj-py-GJ8"; */
+"0Uj-py-GJ8.text" = "Description goes here Description goes here";
+
+/* Class = "UILabel"; text = "Search Option #2"; ObjectID = "BwF-1E-xkJ"; */
+"BwF-1E-xkJ.text" = "Search Option #2";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "CP0-R6-qum"; */
+"CP0-R6-qum.text" = "City";
+
+/* Class = "UILabel"; text = "Longitude"; ObjectID = "Ebx-NT-sUX"; */
+"Ebx-NT-sUX.text" = "Longitude";
+
+/* Class = "UILabel"; text = "Latitude"; ObjectID = "F0o-i6-QKu"; */
+"F0o-i6-QKu.text" = "Latitude";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Ftd-CA-ZlM"; */
+"Ftd-CA-ZlM.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "High: 80°"; ObjectID = "NpW-hG-6eo"; */
+"NpW-hG-6eo.text" = "High: 80°";
+
+/* Class = "UIButton"; configuration.title = "Search with coordinates"; ObjectID = "Oy4-NQ-vhF"; */
+"Oy4-NQ-vhF.configuration.title" = "Search with coordinates";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Oy4-NQ-vhF"; */
+"Oy4-NQ-vhF.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "TrV-fP-tul"; */
+"TrV-fP-tul.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Table"; ObjectID = "X6l-XW-eRv"; */
+"X6l-XW-eRv.title" = "Table";
+
+/* Class = "UILabel"; text = "ZIP Code"; ObjectID = "ZPd-oP-YOd"; */
+"ZPd-oP-YOd.text" = "ZIP Code";
+
+/* Class = "UINavigationItem"; title = "Add Location"; ObjectID = "a37-Wp-GS2"; */
+"a37-Wp-GS2.title" = "Add Location";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "b6K-Z8-2Kx"; */
+"b6K-Z8-2Kx.title" = "Edit";
+
+/* Class = "UITabBarItem"; title = "Current"; ObjectID = "d0s-bd-c7n"; */
+"d0s-bd-c7n.title" = "Current";
+
+/* Class = "UILabel"; text = "Search Option #1"; ObjectID = "dx6-1D-IDA"; */
+"dx6-1D-IDA.text" = "Search Option #1";
+
+/* Class = "UIButton"; configuration.title = "Search With ZIP Code"; ObjectID = "jQV-4W-vck"; */
+"jQV-4W-vck.configuration.title" = "Search With ZIP Code";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jQV-4W-vck"; */
+"jQV-4W-vck.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "70°"; ObjectID = "nNb-Gl-cIQ"; */
+"nNb-Gl-cIQ.text" = "70°";
+
+/* Class = "UINavigationItem"; title = "Table"; ObjectID = "sdx-ue-xUR"; */
+"sdx-ue-xUR.title" = "Table";
+
+/* Class = "UILabel"; text = "Low: 55°"; ObjectID = "ugA-LM-HnW"; */
+"ugA-LM-HnW.text" = "Low: 55°";
